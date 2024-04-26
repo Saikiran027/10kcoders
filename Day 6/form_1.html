@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <h2>Novell Services Login</h2>
+    </center>
+    <br>
+    <form>
+    <label for="username">Username:</label>
+    <input type="text" id="username" >
+    <br>
+    <label for="password">password:</label>
+    <input type="password" id="password">
+    <br>
+    <label for="coe">City Of Employment:</label>
+    <input type="text" id="coe">
+    <br>
+    <label for="Web">Web Server</label>
+    <select name="server" id="web">
+        <option value="Choose a server">-Choose a server-</option>
+        <option value="">apache</option>
+        <option value="">jetty</option>
+        <option value="">caddy</option>
+        <option value="">nginx</option>
+        </select>
+        <br>
+        </form>
+       <form>
+        <label for="specify">Please Specify your role:</label><br>
+        <input type="radio"  id="specify" name="radio">Admin
+        <br>
+        <input type="radio" id="specify" name="radio">Engineer
+        <br>
+        <input type="radio" id="specify" name="radio">Manager
+        <br>
+        <input type="radio" id="specify" name="radio">Guest
+        </form>
+        <br>
+        <form>
+            <label for="single sign">single sign-on to the following</label>
+            <br>
+            <input type="checkbox" id="sinle sign">Mail
+            <br>
+            <input type="checkbox" id="single sign" >Payroll
+            <br>
+            <input type="checkbox" id="single sign" >Self-Service
+            <br>
+            <input type="button" value="Login">
+            
+            <button onclick="validate()" >Reset</button>
+            </form>
+
+    
+</body>
+</html>
