@@ -1,0 +1,71 @@
+div.class1 {
+    position: relative;
+    
+  } 
+  
+  div.class2 {
+    color: white;
+    background-color: black;
+    position: absolute;
+    top: 400px;
+    left: 600px;
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    text-align: center;
+    display: inline-block;
+
+    }
+    div.arc{
+      color: white;
+      background-color: black;
+      position: absolute;
+      top: 400px;
+      left: 670px;
+      width:0px;
+      height: 60px;
+      font-size: 40px;
+      text-align: center;
+      display: inline-block;
+      
+        
+    }
+    div.class3{
+        position: relative;
+        display: inline-block;
+        vertical-align: top;
+        
+        
+       }
+    div.class4{
+    color: white;
+    background-color: black;
+    position: absolute;
+    top: 10px;
+    left: px;
+    width: 120px;
+    height: 20px;
+    }
+
+    div.class5{
+      margin: 20px;
+      display: inline-block;
+      vertical-align: top;
+      width:250;
+      height: 400;
+
+    }
+    div.class6{
+      width: 250px;
+      background:grey;
+      color: white;
+      text-align: center;
+    }
+    input{
+      width: 100%;
+    }
+    button{
+      background-color: black;
+      color: azure;
+    }
+
